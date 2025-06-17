@@ -1,3 +1,18 @@
+user@Ubuntu18:~/GEM5$ ./build/X86/gem5.opt configs/example/se.py -c ./quicksort \
+> --cpu-type=TimingSimpleCPU \
+> --caches --l2cache --l3cache \
+> --l1d_size=32kB --l2_size=512kB --l3_size=2MB \
+> --l3_assoc=2 \
+> --mem-type=NVMainMemory \
+> --nvmain-config=../NVmain/Config/PCM_ISSCC_2012_4GB.config
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jun 13 2025 16:11:07
+gem5 started Jun 17 2025 22:36:44
+gem5 executing on Ubuntu18, pid 26201
+command line: ./build/X86/gem5.opt configs/example/se.py -c ./quicksort --cpu-type=TimingSimpleCPU --caches --l2cache --l3cache --l1d_size=32kB --l2_size=512kB --l3_size=2MB --l3_assoc=2 --mem-type=NVMainMemory --nvmain-config=../NVmain/Config/PCM_ISSCC_2012_4GB.config
+
 Global frequency set at 1000000000000 ticks per second
 NVMainControl: Reading NVMain config file: ../NVmain/Config/PCM_ISSCC_2012_4GB.config.
 0: system.remote_gdb: listening for remote gdb on port 7000
