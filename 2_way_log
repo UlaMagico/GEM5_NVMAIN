@@ -1,3 +1,110 @@
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
 Exiting @ tick 87429868000 because exiting with last active thread context
 i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.subarray0.subArrayEnergy 36.2138nJ
 i0.defaultMemory.channel0.FRFCFS-WQF.channel0.rank0.bank0.subarray0.activeEnergy 32.3176nJ
