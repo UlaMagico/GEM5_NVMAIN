@@ -157,4 +157,9 @@ replacement_policy依照Q4所需，將註解去掉
     parser.add_option("--l3cache", action="store_true")
 ```
 
+完成以上修改後記得編譯
+```
+scons build/X86/gem5.opt -j 4
+```
+
 > ### Q3之後的在folder裡
