@@ -1,5 +1,6 @@
-在Caches.py修改replacement policy:
+原本的policy預設為LRU
 
+在Caches.py將replacement policy設為LFU:
 class L3Cache(Cache):
     '
     '
