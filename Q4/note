@@ -1,0 +1,8 @@
+在Caches.py修改replacement policy:
+
+class L3Cache(Cache):
+    '
+    '
+    '
+    #Q4 frequency based policy
+    replacement_policy = Param.BaseReplacementPolicy(LFURP(),"Replacement policy")
