@@ -65,20 +65,20 @@ class L1_DCache(L1Cache):
 
 class L2Cache(Cache):
     assoc = 8
-    tag_latency = 12
-    data_latency = 12
-    response_latency = 12
+    tag_latency = 20
+    data_latency = 20
+    response_latency = 20
     mshrs = 20
     tgts_per_mshr = 12
     write_buffers = 8
 
 class L3Cache(Cache):
     assoc = 2
-    tag_latency = 30
-    data_latency =30
-    response_latency = 30
-    mshrs = 30
-    tgts_per_mshr = 20
+    tag_latency = 35
+    data_latency =35
+    response_latency = 35
+    mshrs = 35
+    tgts_per_mshr = 30
     write_buffers = 16
     #Q4 frequency based policy
     #replacement_policy = Param.BaseReplacementPolicy(LFURP(),"Replacement policy")
