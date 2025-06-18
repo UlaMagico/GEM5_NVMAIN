@@ -145,7 +145,7 @@ class L3Cache(Cache):
     #Q4 frequency based policy
     #replacement_policy = Param.BaseReplacementPolicy(LFURP(),"Replacement policy")
 ```
-replacement_policy依照Q4所需，要將註解去掉
+replacement_policy依照Q4所需，將註解去掉
 
 ### 5. Options.py
 ```
