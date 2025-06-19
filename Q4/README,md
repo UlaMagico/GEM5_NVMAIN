@@ -13,33 +13,6 @@ class L3Cache(Cache):
 ```
 
 ### 比較l3 cache performance
-![螢幕擷取畫面 2025-06-19 145402](https://hackmd.io/_uploads/Bylj8iVWVll.png)
-
-original policy:
-miss rate=0.328266
-avg miss latency=107424.258412
-
-LFURP:
-miss rate=0.337272
-avg miss latency=106137.509985
-
-LFU的miss rate雖然高於原本policy的，但是avg miss latency比較低### 更改policy
-原本的policy預設為LRU
-
-在Caches.py將replacement policy設為LFU:
-
-```
-class L3Cache(Cache):
-    '
-    '
-    '
-    #Q4 frequency based policy
-    replacement_policy = Param.BaseReplacementPolicy(LFURP(),"Replacement policy")
-```
-
-### 比較l3 cache performance
-![螢幕擷取畫面 2025-06-19 145402](https://hackmd.io/_uploads/Bylj8iVWVll.png)
-
 original policy:
 miss rate=0.328266
 avg miss latency=107424.258412
