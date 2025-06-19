@@ -1,10 +1,10 @@
 ### Q3 Config last level cache to 2-way and full-way associative cache and test performance (15%) 
 > 必須跑benchmark quicksort在 2-way跟 full way (直接在 L3 cache implement，可以用 miss rate 判斷是否成功 )
 
-因為原先測試時發現miss rate沒改變，所以分old與new
-old與new的區別為l3_size不同
-old的l3_size=1MB
-new的l3_size=512kB
+因為原先測試時發現miss rate沒改變，所以分old與new，old與new的區別為l3_size不同
+
+old的l3_size=1MB，new的l3_size=512kB
+eeclass繳交的log檔為new的那一份
 
 
 ---
