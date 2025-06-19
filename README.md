@@ -18,7 +18,7 @@ Baseline:LRU
 ## Q2 啟用L3 cache
 需修改以下檔案:
 
-### 1. BaseCPU.py
+### 1. BaseCPU.py (scr/cpu)
 引入的XBar新增L3XBar
 ```
 from XBar import L2XBar, L3XBar
@@ -36,7 +36,7 @@ from XBar import L2XBar, L3XBar
 ```
 
 
-### 2. XBar.py
+### 2. XBar.py (scr/mem)
 仿照class L2XBar新增以下程式碼:
 ```
 class L3XBar(CoherentXBar):
@@ -61,7 +61,7 @@ class L3XBar(CoherentXBar):
     point_of_unification = True
 ```
 
-### 3. CacheConfig.py
+### 3. CacheConfig.py (configs/common)
 將下列程式
 ```
         dcache_class, icache_class, l2_cache_class, walk_cache_class = \
@@ -131,7 +131,7 @@ class L3XBar(CoherentXBar):
         system.l2.mem_side = system.membus.slave
 ```
 
-### 4. Caches.py
+### 4. Caches.py (configs/common)
 仿照class L2Cache，新增:
 ```
 class L3Cache(Cache):
@@ -147,7 +147,7 @@ class L3Cache(Cache):
 ```
 replacement_policy依照Q4所需，將註解去掉
 
-### 5. Options.py
+### 5. Options.py (configs/common)
 ```
     parser.add_option("--caches", action="store_true")
     parser.add_option("--l2cache", action="store_true")
