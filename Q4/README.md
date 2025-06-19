@@ -14,11 +14,11 @@ class L3Cache(Cache):
 
 ### 比較l3 cache performance
 original policy:
-miss rate=0.328266
-avg miss latency=107424.258412
+* miss rate=0.328266
+* avg miss latency=107424.258412
 
-LFURP:
-miss rate=0.337272
-avg miss latency=106137.509985
+ LFURP:
+* miss rate=0.337272
+* avg miss latency=106137.509985
 
 LFU的miss rate雖然高於原本policy的，但是avg miss latency比較低
