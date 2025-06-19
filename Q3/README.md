@@ -4,6 +4,7 @@
 因為原先測試時發現miss rate沒改變，所以分old與new，old與new的區別為l3_size不同
 
 old的l3_size=1MB，new的l3_size=512kB
+
 eeclass繳交的log檔為new的那一份
 
 
